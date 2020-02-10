@@ -1,0 +1,284 @@
+body {
+  color: #818181;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#header{
+  height: 500px;
+  background-image: url("food-2068217_1920.jpg");
+}
+
+#logo {
+  padding-top: 200px;
+}
+
+#contenido { 
+  width: 1024px;
+}
+
+img{
+display:block;
+margin:auto;
+}
+
+h1 {
+	color: #89b33b!important;
+}
+
+h2, h1 {
+	color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 34px;
+    line-height: 44px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+p {
+	text-align: justify;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:16px;
+      }
+    
+ul {
+  padding-inline-start: 0px!important;
+}
+
+nav li{
+      display:inline-block;
+      width:200px;
+      height:100%;
+      padding:5px 10px;
+      background-color:#89b33b;
+      border:1px solid #89b33b;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+            
+nav li:hover{
+      background-color:#fff;
+      color:#89b33b;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:45px;
+      right: -1px;
+}
+
+a {
+  color: #89b33b;
+  font-size: 16px;
+}
+
+pre.share {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+}
+
+.fa-twitter, .fa-facebook-square{
+  color: #818181!important;
+}
+
+a:hover .fa-facebook-square{
+  color: #3b5998!important;
+}
+
+a:hover .fa-twitter{
+  color: #00acee!important;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #89b33b;
+}
+
+.footer {
+  background: #ebd9b2;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item2 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item3 {
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item4 {
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.grid-container3responsive {
+  display: none;
+}
+
+.grid-item3responsive {
+  display: none;
+}
+
+.grid-container2responsive {
+  display: none;
+}
+
+.grid-item2responsive {
+  display: none;
+}
+
+
+@media (max-width: 1070px) {
+
+  #contenido {
+    width: 900px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  nav li{
+    width:199px;
+  }
+
+  nav a{
+    font-size:20px;
+  }
+
+  .grid-container {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .grid-container3 {
+    display: none;
+  }
+
+  .grid-item3 {
+    display: none;
+  }
+
+  .grid-container3responsive {
+    display: block;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
+  .grid-item3responsive {
+    display: block;
+    display: grid;
+    padding: 20px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+}
+
+@media only screen and (max-device-width: 550px) {
+
+  #logo {
+    padding-top: 45px;
+  }
+
+.grid-container2 {
+  display: none;
+}
+
+.grid-item2 {
+  display: none;
+}
+
+  .grid-container2responsive {
+    display: block;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+
+  .grid-item2responsive {
+    display: block;
+    display: grid;
+    padding: 20px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  #contenido {
+    width: 900px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  nav li{
+    width:680px;
+  }
+
+  nav a{
+    font-size:30px;
+  }
+
+  .grid-container {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}
